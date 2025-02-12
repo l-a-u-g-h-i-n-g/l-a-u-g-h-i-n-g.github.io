@@ -82,3 +82,6 @@ body {
   font-size: 0.9em; /* Smaller font size */
   margin-top: 10px; /* Add spacing above the credit text */
 }
+h1 {
+  text-align: center;
+}
