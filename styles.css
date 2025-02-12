@@ -51,20 +51,22 @@ body {
   }
   
 /* Profile Section */
+/* Profile Section - Fixing alignment and image size */
 .profile {
-    display: flex;
-    align-items: center; /* Vertically center items */
-    justify-content: center; /* Horizontally center items */
-    margin-top: 20px;
-  }
-  
-  .profile-img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover; /* Ensures the image covers the area without distortion */
-    margin-right: 20px; /* Space between image and bio */
-  }
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align left, change to start for better alignment */
+  margin-top: 20px;
+}
+
+.profile-img {
+  width: 80px; /* Reduced size */
+  height: 80px; /* Reduced size */
+  border-radius: 50%;
+  border: 5px solid #fff;
+  margin-right: 20px; /* Adds spacing between image and text */
+}
+
   
   .bio {
     color: #ccc; /* Light gray text */
