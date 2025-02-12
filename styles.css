@@ -1,82 +1,86 @@
-/* Background Color for the Body */
+/* General Body Styling */
 body {
-    background-color: #1e1e1e; /* Dark background to give it that "dark mode" vibe */
+    background-color: #1e1e1e; /* Dark background for "dark mode" look */
+    margin: 0;
+    font-family: Arial, sans-serif;
   }
   
-  /* Style for Top Navigation */
+  /* Top Navigation Bar */
   .topnav {
-    background-color: #2c2f3e; /* Dark, charcoal gray with a hint of blue */
+    background-color: #2c2f3e; /* Dark gray with a hint of blue */
     overflow: hidden;
-    border-radius: 15px;
+    border-radius: 25px;
     padding: 20px;
     text-align: center;
+    width: 75%;
+    margin: 0 auto;
   }
   
-  /* Navigation Links */
   .topnav a {
-    float: left;
-    display: block;
     color: #ffffff;
-    text-align: center;
+    display: inline-block;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
     border-radius: 5px;
+    text-align: center;
   }
   
-  /* Hover Effect on Links */
   .topnav a:hover {
-    background-color: #5c86d3; /* Soft blue (Transgender flag's light blue) */
-    color: #fff;
+    background-color: #5c86d3; /* Light blue (Transgender flag's light blue) */
   }
   
-  /* Active Link */
   .topnav a.active {
     background-color: #d373a8; /* Soft pink from the transgender flag */
     color: white;
   }
   
-  /* Responsive Settings for Mobile View */
+  /* Mobile Menu */
   @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {display: none;}
-    .topnav a.icon {
-      float: right;
-      display: block;
+    .topnav a:not(:first-child) {
+      display: none;
     }
-  }
   
-  @media screen and (max-width: 600px) {
-    .topnav.responsive {position: relative;}
-    .topnav.responsive a.icon {
-      position: absolute;
-      right: 0;
-      top: 0;
+    .topnav a.icon {
+      display: block;
+      float: right;
     }
+  
+    .topnav.responsive {
+      position: relative;
+    }
+  
     .topnav.responsive a {
       float: none;
       display: block;
       text-align: left;
     }
+  
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
   }
   
-  /* Main Content Section */
+  /* Main Content Styling */
   .main-content {
     width: 75%;
-    margin: 0 auto;
-    background: #2a2d3b; /* Darker background for contrast */
+    margin: 20px auto;
+    background-color: #2a2d3b; /* Darker background for contrast */
     color: #fff;
     border-radius: 25px;
     padding: 20px;
   }
   
-  /* Heading Styling */
+  /* Heading Style */
   .main-content h1 {
-    color: #f7a0c0; /* Light pink for a touch of color */
+    color: #f7a0c0; /* Light pink for a pop of color */
     font-family: 'Arial', sans-serif;
   }
   
-  /* Paragraph Text */
+  /* Paragraph Styling */
   .main-content p {
-    color: #ccc; /* Light gray text for better readability */
+    color: #ccc; /* Light gray text for readability */
   }
   
