@@ -52,11 +52,13 @@ body {
   
 /* Profile Section */
 /* Profile Section - Fixing alignment and image size */
+/* Profile Section - Fixing alignment and image size */
 .profile {
   display: flex;
   align-items: center;
-  justify-content: flex-start; /* Align left, change to start for better alignment */
+  justify-content: flex-start; /* Align left */
   margin-top: 20px;
+  flex-wrap: wrap; /* Allow items to wrap */
 }
 
 .profile-img {
@@ -67,12 +69,12 @@ body {
   margin-right: 20px; /* Adds spacing between image and text */
 }
 
-  
-  .bio {
-    color: #ccc; /* Light gray text */
-  }
-  
-  .bio p {
-    margin: 5px 0;
-  }
-  
+.bio {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  color: #ccc; /* Light gray text */
+}
+
+.bio p {
+  margin: 5px 0;
+}
