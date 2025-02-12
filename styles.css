@@ -1,13 +1,13 @@
 /* General Body Styling */
 body {
-    background-color: #1e1e1e; /* Dark background for "dark mode" look */
+    background-color: #121212; /* Even darker background for a deep dark mode */
     margin: 0;
     font-family: Arial, sans-serif;
   }
   
   /* Top Navigation Bar */
   .topnav {
-    background-color: #2c2f3e; /* Dark gray with a hint of blue */
+    background-color: #2b2f3a; /* Dark gray with a cool blueish hint */
     overflow: hidden;
     border-radius: 25px;
     padding: 20px;
@@ -17,7 +17,7 @@ body {
   }
   
   .topnav a {
-    color: #ffffff;
+    color: #d0d5dd; /* Subtle off-white to reduce harshness */
     display: inline-block;
     padding: 14px 16px;
     text-decoration: none;
@@ -27,12 +27,12 @@ body {
   }
   
   .topnav a:hover {
-    background-color: #5c86d3; /* Light blue (Transgender flag's light blue) */
+    background-color: #4c7a99; /* Softened light blue (Transgender pride light blue) */
   }
   
   .topnav a.active {
-    background-color: #d373a8; /* Soft pink from the transgender flag */
-    color: white;
+    background-color: #b47397; /* Muted soft pink (Darkened Transgender pride pink) */
+    color: #fff;
   }
   
   /* Mobile Menu */
@@ -67,7 +67,7 @@ body {
   .main-content {
     width: 75%;
     margin: 20px auto;
-    background-color: #2a2d3b; /* Darker background for contrast */
+    background-color: #2a2e39; /* Darker background for contrast */
     color: #fff;
     border-radius: 25px;
     padding: 20px;
@@ -75,12 +75,12 @@ body {
   
   /* Heading Style */
   .main-content h1 {
-    color: #f7a0c0; /* Light pink for a pop of color */
+    color: #f2a4c7; /* A subtle, soft pink for headings */
     font-family: 'Arial', sans-serif;
   }
   
   /* Paragraph Styling */
   .main-content p {
-    color: #ccc; /* Light gray text for readability */
+    color: #b0b8c1; /* Light grayish color for text to soften it */
   }
   
