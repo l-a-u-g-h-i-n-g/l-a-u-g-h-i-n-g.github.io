@@ -54,7 +54,7 @@ body {
 .profile {
   display: flex;
   flex-direction: row; /* Align items horizontally */
-  align-items: center; /* Center align items vertically */
+  align-items: flex-start; /* Align items at the top */
   margin-top: 20px;
 }
 
