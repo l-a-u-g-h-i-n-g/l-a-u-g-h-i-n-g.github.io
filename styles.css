@@ -53,10 +53,9 @@ body {
 /* Profile Section */
 .profile {
   display: flex;
-  align-items: center;
-  justify-content: flex-start; /* Align left */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center align items */
   margin-top: 20px;
-  flex-wrap: wrap; /* Allow items to wrap */
 }
 
 .profile-img {
@@ -64,15 +63,23 @@ body {
   height: 80px; /* Reduced size */
   border-radius: 50%;
   border: 5px solid #fff;
-  margin-right: 20px; /* Adds spacing between image and text */
+  margin-bottom: 10px; /* Adds spacing below the image */
 }
 
 .bio {
   display: flex;
   flex-direction: column; /* Stack items vertically */
   color: #ccc; /* Light gray text */
+  text-align: center; /* Center align text */
 }
 
 .bio p {
   margin: 5px 0;
+}
+
+.credit {
+  color: #ccc; /* Light gray text */
+  text-align: center; /* Center align text */
+  font-size: 0.9em; /* Smaller font size */
+  margin-top: 10px; /* Add spacing above the credit text */
 }
