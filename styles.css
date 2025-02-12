@@ -53,8 +53,8 @@ body {
 /* Profile Section */
 .profile {
   display: flex;
-  flex-direction: column; /* Stack items vertically */
-  align-items: center; /* Center align items */
+  flex-direction: row; /* Align items horizontally */
+  align-items: center; /* Center align items vertically */
   margin-top: 20px;
 }
 
@@ -63,14 +63,13 @@ body {
   height: 80px; /* Reduced size */
   border-radius: 50%;
   border: 5px solid #fff;
-  margin-bottom: 10px; /* Adds spacing below the image */
+  margin-right: 20px; /* Adds spacing between image and text */
 }
 
 .bio {
   display: flex;
   flex-direction: column; /* Stack items vertically */
   color: #ccc; /* Light gray text */
-  text-align: center; /* Center align text */
 }
 
 .bio p {
@@ -79,10 +78,7 @@ body {
 
 .credit {
   color: #ccc; /* Light gray text */
-  text-align: center; /* Center align text */
+  text-align: left; /* Left align text */
   font-size: 0.9em; /* Smaller font size */
   margin-top: 10px; /* Add spacing above the credit text */
-}
-h1{
-  text-align:center;
 }
