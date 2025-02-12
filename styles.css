@@ -1,58 +1,56 @@
 /* General Body Styling */
 body {
-    background-color: #121212; /* Dark background */
-    margin: 0;
-    font-family: Arial, sans-serif;
-  }
-  
-  /* Top Navigation Bar */
-  .topnav {
-    background-color: #2b2f3a; /* Dark gray with a cool blueish hint */
-    overflow: hidden;
-    border-radius: 25px;
-    padding: 20px;
-    text-align: center;
-    width: 75%;
-    margin: 0 auto;
-  }
-  
-  .topnav a {
-    color: #d0d5dd; /* Subtle off-white */
-    display: inline-block;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    border-radius: 5px;
-    text-align: center;
-  }
-  
-  .topnav a:hover {
-    background-color: #4c7a99; /* Softened light blue */
-  }
-  
-  .topnav a.active {
-    background-color: #b47397; /* Muted soft pink */
-    color: #fff;
-  }
-  
-  /* Main Content Styling */
-  .main-content {
-    width: 75%;
-    margin: 20px auto;
-    background-color: #2a2e39; /* Darker background for contrast */
-    color: #fff;
-    border-radius: 25px;
-    padding: 20px;
-  }
-  
-  .main-content h1 {
-    color: #f2a4c7; /* Soft pink for headings */
-    font-family: 'Arial', sans-serif;
-  }
-  
+  background-color: #121212; /* Dark background */
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Top Navigation Bar */
+.topnav {
+  background-color: #2b2f3a; /* Dark gray with a cool blueish hint */
+  overflow: hidden;
+  border-radius: 25px;
+  padding: 20px;
+  text-align: center;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.topnav a {
+  color: #d0d5dd; /* Subtle off-white */
+  display: inline-block;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.topnav a:hover {
+  background-color: #4c7a99; /* Softened light blue */
+}
+
+.topnav a.active {
+  background-color: #b47397; /* Muted soft pink */
+  color: #fff;
+}
+
+/* Main Content Styling */
+.main-content {
+  width: 75%;
+  margin: 20px auto;
+  background-color: #2a2e39; /* Darker background for contrast */
+  color: #fff;
+  border-radius: 25px;
+  padding: 20px;
+}
+
+.main-content h1 {
+  color: #f2a4c7; /* Soft pink for headings */
+  font-family: 'Arial', sans-serif;
+}
+
 /* Profile Section */
-/* Profile Section - Fixing alignment and image size */
-/* Profile Section - Fixing alignment and image size */
 .profile {
   display: flex;
   align-items: center;
