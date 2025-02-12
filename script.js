@@ -1,8 +1,8 @@
-function myFunction() {
+function toggleSidebar() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
-    x.className += " responsive"; // Open the sidebar
+    x.className += " responsive";
   } else {
-    x.className = "topnav"; // Close the sidebar
+    x.className = "topnav";
   }
 }

@@ -4,31 +4,27 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
 }
-/* Top Navigation Bar (Sidebar) */
+
+/* Top Navigation Bar */
 .topnav {
   background-color: #2b2f3a; /* Dark gray with a cool blueish hint */
   overflow: hidden;
-  position: fixed;
-  top: 0;
-  left: -250px; /* Start off-screen */
-  height: 100%; /* Full screen height */
-  width: 250px; /* Sidebar width */
-  transition: 0.3s;
-  padding-top: 20px;
-}
-
-.topnav.responsive {
-  left: 0; /* Show sidebar when responsive */
+  border-radius: 25px;
+  padding: 20px;
+  text-align: center;
+  width: 75%;
+  margin: 0 auto;
+  position: relative;
 }
 
 .topnav a {
   color: #d0d5dd; /* Subtle off-white */
-  display: block;
+  display: inline-block;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
   border-radius: 5px;
-  text-align: left;
+  text-align: center;
 }
 
 .topnav a:hover {
@@ -41,59 +37,7 @@ body {
 }
 
 .topnav .icon {
-  display: block;
-  font-size: 30px;
-  color: #fff;
-  position: fixed;
-  top: 10px;
-  right: 10px;
-  z-index: 1;
-}
-
-/* Main content */
-.main-content {
-  width: 100%;
-  padding: 20px;
-  margin-left: 0;
-  transition: margin-left 0.3s; /* Animate the transition */
-}
-
-/* Responsive Design for Sidebar */
-@media screen and (max-width: 600px) {
-  .topnav {
-    width: 250px;
-    left: -250px; /* Hidden by default */
-  }
-
-  .topnav.responsive {
-    left: 0; /* Slide it in */
-  }
-
-  .main-content {
-    margin-left: 0;
-  }
-}
-
-
-/* Responsive Class for Navigation */
-@media screen and (max-width: 600px) {
-  .topnav a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-  .topnav.responsive {
-    position: relative;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
+  display: none;
 }
 
 /* Main Content Styling */
@@ -105,11 +49,7 @@ body {
   border-radius: 25px;
   padding: 20px;
   text-align: center; /* Center align the text within the main content */
-}
-
-.main-content h1 {
-  color: #f2a4c7; /* Soft pink for headings */
-  font-family: 'Arial', sans-serif;
+  transition: margin-left 0.3s; /* Smooth transition for sidebar */
 }
 
 /* Profile Section */
@@ -150,11 +90,36 @@ body {
   .topnav {
     width: 100%;
     padding: 10px;
+    position: fixed;
+    top: 0;
+    left: -250px; /* Sidebar hidden by default */
+    height: 100%;
+    transition: left 0.3s;
+  }
+
+  .topnav.responsive {
+    left: 0; /* Show sidebar */
+  }
+
+  .topnav a {
+    display: block;
+    text-align: left;
+    padding: 14px;
+  }
+
+  .topnav .icon {
+    display: block;
+    font-size: 30px;
+    color: #fff;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
   }
 
   .main-content {
-    width: 90%;
-    margin: 10px auto;
+    width: 100%;
+    margin: 0;
     padding: 10px;
   }
 
